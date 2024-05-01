@@ -137,48 +137,71 @@ function Home(){
       {/* end card1 */}
         {/* end card1 */}
 
-        {/* start card2 */}
-        <div  style={{backgroundColor:''}}>
+              {/* start card2 */}
+      <div style={{ backgroundColor: '' }}>
         <div className="container">
-            <br/>
-            <br/>
-            <p class="text-center nanum-gothic-regular">BUSINESS SEGMENTS</p>
-            <p class="text-center playfair-display-regular" style={{color:'gray'}}>Manufacturing of Generic APIs, Nutraceutical ingredients and Custom synthesis of APIs for Big Pharma</p>
-            <br/>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-    <div class="card h-100 text-center">
-      <img src="https://www.shutterstock.com/image-photo/word-demo-appearing-behind-torn-260nw-1782295403.jpg" class="card-img-top" alt="img1"/>
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <br />
+          <br />
+          <p class="text-center nanum-gothic-regular">BUSINESS SEGMENTS</p>
+          <p class="text-center playfair-display-regular" style={{ color: 'gray' }}>Manufacturing of Generic APIs, Nutraceutical ingredients and Custom synthesis of APIs for Big Pharma</p>
+          <br />
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+            
+              <div class="card h-100 text-center position-relative">
+                <img src="https://www.shutterstock.com/image-photo/word-demo-appearing-behind-torn-260nw-1782295403.jpg" class="card-img-top" alt="img1" />
+                <div class="overlay"></div>
+                <div class="overlay-content">
+                  <h5 class="card-title text-white">Card title</h5>
+                  <p class="card-text text-white">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <br/><br/><br/><br/><br/>
+                </div>
+                <div class="card text-center">
+                <br/>
+                <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>               
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 text-center position-relative">
+                <img src="https://www.shutterstock.com/image-photo/word-demo-appearing-behind-torn-260nw-1782295403.jpg" class="card-img-top" alt="img2" />
+                <div class="overlay"></div>
+                <div class="overlay-content">
+                  <h5 class="card-title text-white">Card title</h5>
+                  <p class="card-text text-white">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <br/><br/><br/><br/><br/>
+                </div>
+                <div class="card text-center">
+                <br/>
+                <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 text-center position-relative ">
+                <img src="https://www.shutterstock.com/image-photo/word-demo-appearing-behind-torn-260nw-1782295403.jpg" class="card-img-top" alt="img3" />
+                <div class="overlay"></div>
+                <div class="overlay-content">                
+                  <h5 class="card-title text-white">Card title</h5>
+                  <p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <br/><br/><br/><br/><br/>
+                </div>
+                <div class="card text-center">
+                <br/>
+                <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <br />
+        <br />
       </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100 text-center">
-      <img src="https://www.shutterstock.com/image-photo/word-demo-appearing-behind-torn-260nw-1782295403.jpg" class="card-img-top" alt="im2"/>
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100 text-center">
-      <img src="https://www.shutterstock.com/image-photo/word-demo-appearing-behind-torn-260nw-1782295403.jpg" class="card-img-top" alt="img3"/>
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-<br/>
-<br/>
-</div>
-        {/* end card2 */}
+      {/* end card2 */}
         {/* start card3 */}
         <p class="text-center nanum-gothic-regular">BUSINESS OPERATIONS</p>
             <p class="text-center playfair-display-regular" style={{color:'gray'}}>Discover the Divi’s Difference</p>

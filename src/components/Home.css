@@ -1,74 +1,116 @@
 
 .containerm {
-    min-height: 100vh;
-    overflow: hidden;
-    width: 100%;
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center
+  min-height: 100vh;
+  overflow: hidden;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center
 }
 
 .nanum-gothic-regular {
-  font-family: "Nanum Gothic", sans-serif;
-  font-weight: 400;
-  font-size: 35px;
-  font-style: normal;
+font-family: "Nanum Gothic", sans-serif;
+font-weight: 400;
+font-size: 35px;
+font-style: normal;
 }
 
 .playfair-display-regular {
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-size: 20px;
-  font-style: normal;
+font-family: "Playfair Display", serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-size: 20px;
+font-style: normal;
 }
 
 .parallax {
-  /* The image used */
-  background-image: url('https://media.istockphoto.com/id/1428401936/photo/beautifull-background-on-a-christmas-theme-with-snowdrifts-snowfall-and-a-blurred-background.jpg?s=612x612&w=0&k=20&c=msIbZYv4J7aplO6SnkoseIEi43W2Ej1BFLpccOOfw6E=');
+/* The image used */
+background-image: url('https://media.istockphoto.com/id/1428401936/photo/beautifull-background-on-a-christmas-theme-with-snowdrifts-snowfall-and-a-blurred-background.jpg?s=612x612&w=0&k=20&c=msIbZYv4J7aplO6SnkoseIEi43W2Ej1BFLpccOOfw6E=');
 
-  /* Full height */
-  height: 100%; 
+/* Full height */
+height: 100%; 
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 .btn{
-	color: black;
-	background-color: white;
-	border-color: black;
+color: black;
+background-color: white;
+border-color: black;
 }
 .btn:hover{
-	color: rgb(16, 235, 247);
+color: rgb(16, 235, 247);
 }
 .ic {
-  background-color: skyblue;  
-  border-radius: 50%;
-  border: 1px solid grey;
-  padding: 20px;
+background-color: skyblue;  
+border-radius: 50%;
+border: 1px solid grey;
+padding: 20px;
 }
 .ic1 {
-  background-color: lightpink;  
-  border-radius: 50%;
-  border: 1px solid grey;
-  padding: 20px;
+background-color: lightpink;  
+border-radius: 50%;
+border: 1px solid grey;
+padding: 20px;
 }
 .ic2 {
-  background-color: lightcoral;  
-  border-radius: 50%;
-  border: 1px solid grey;
-  padding: 20px;
+background-color: lightcoral;  
+border-radius: 50%;
+border: 1px solid grey;
+padding: 20px;
 }
 .ic:hover{
-	background-color: white;
+background-color: white;
 }
 .ic1:hover{
-	background-color: white;
+background-color: white;
 }
 .ic2:hover{
-	background-color: white;
+background-color: white;
 }
+
+.overlay {
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+width: 100%;
+height: 100%;
+/* background-color: rgba(0, 0, 0, 0.5); Adjust opacity as needed */
+opacity: 0;
+transition: opacity 0.5s;
+background-color: aqua;
+
+}
+
+.card:hover .overlay {
+opacity: 1;
+}
+
+.overlay-content {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+text-align: center;
+width: 100%;
+opacity: 0; /* Hide content by default */
+transition: opacity 0.5s;
+
+}
+
+.card:hover .overlay-content {
+opacity: 1; /* Show content on hover */
+}
+
+.im:hover .overlay {
+  opacity: 1;
+  }
+  .im:hover .overlay-content {
+    opacity: 1; /* Show content on hover */
+    }
