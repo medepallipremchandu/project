@@ -1,0 +1,74 @@
+
+.containerm {
+    min-height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.nanum-gothic-regular {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  font-style: normal;
+}
+
+.playfair-display-regular {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('https://media.istockphoto.com/id/1428401936/photo/beautifull-background-on-a-christmas-theme-with-snowdrifts-snowfall-and-a-blurred-background.jpg?s=612x612&w=0&k=20&c=msIbZYv4J7aplO6SnkoseIEi43W2Ej1BFLpccOOfw6E=');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn{
+	color: black;
+	background-color: white;
+	border-color: black;
+}
+.btn:hover{
+	color: rgb(16, 235, 247);
+}
+.ic {
+  background-color: skyblue;  
+  border-radius: 50%;
+  border: 1px solid grey;
+  padding: 20px;
+}
+.ic1 {
+  background-color: lightpink;  
+  border-radius: 50%;
+  border: 1px solid grey;
+  padding: 20px;
+}
+.ic2 {
+  background-color: lightcoral;  
+  border-radius: 50%;
+  border: 1px solid grey;
+  padding: 20px;
+}
+.ic:hover{
+	background-color: white;
+}
+.ic1:hover{
+	background-color: white;
+}
+.ic2:hover{
+	background-color: white;
+}
