@@ -104,7 +104,7 @@ function Footer() {
       
         <div class="text-center p-4" style={{backgroundColor: 'rgba(0, 0, 0, 0.05)'}}>
           © 2021 Copyright:
-          <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          <a class="text-reset fw-bold" href="">Project</a>
         </div>
       </footer>
     );
